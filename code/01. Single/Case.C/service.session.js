@@ -3,7 +3,7 @@ const HAS    = 'Has'
 const SET    = 'Set'
 const REMOVE = 'Remove'
 
-function Session (Logger) {
+function Service (Logger) {
 
   let asJson = JSON.stringify
   let asData = JSON.parse
@@ -38,4 +38,4 @@ function Session (Logger) {
 
 }
 
-export default Session (Logger)
+export default Service (Logger)
